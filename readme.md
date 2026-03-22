@@ -1,4 +1,4 @@
-#Hexo Brain - 一款blog agent
+# Hexo Brain - 一款blog agent
 
 
 
