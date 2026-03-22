@@ -1,0 +1,72 @@
+[
+  {
+    "title": "FastAPI 入门教程",
+    "content": "FastAPI 入门教程 什么是 FastAPI FastAPI 是一个用于构建 API 的 Python 框架。它具有以下特点： 快速：性能接近 Node.js 和 Go 自动文档：自动生成 Swagger UI 文档 类型检查：利用 Python 类型提示，自动验证数据 异步支持：原生支持 async/await 安装 FastAPI 使用 pip 安装： `pip install fastapi uvicorn ` 第一个 FastAPI 应用 创建一个简单的 API： `from fastapi import FastAPI app = FastAPI() @app.",
+    "chunk_index": 0,
+    "total_chunks": 2,
+    "filepath": "./test_posts\\fastapi_intro.md",
+    "metadata": {
+      "title": "FastAPI 入门教程",
+      "date": "2024-01-15",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "API"
+      ],
+      "categories": "教程"
+    }
+  },
+  {
+    "title": "FastAPI 入门教程",
+    "content": "FastAPI app = FastAPI() @app.get(&quot;/&quot;) def read_root(): return {&quot;Hello&quot;: &quot;World&quot;} ` 运行服务： `uvicorn main:app --reload ` 总结 FastAPI 是一个现代化的 Web 框架，非常适合构建 AI 应用和微服务。",
+    "chunk_index": 1,
+    "total_chunks": 2,
+    "filepath": "./test_posts\\fastapi_intro.md",
+    "metadata": {
+      "title": "FastAPI 入门教程",
+      "date": "2024-01-15",
+      "tags": [
+        "Python",
+        "FastAPI",
+        "API"
+      ],
+      "categories": "教程"
+    }
+  },
+  {
+    "title": "RAG 技术详解",
+    "content": "RAG 技术详解 什么是 RAG RAG（Retrieval-Augmented Generation）是一种结合检索和生成的 AI 技术。 RAG 的工作原理 RAG 的工作流程如下： 文档处理：将文档切分成小块 向量化：使用 Embedding 模型将文本转换为向量 存储：将向量保存到向量数据库 检索：用户提问时，计算问题向量并查找相似内容 生成：将检索到的内容和问题一起发送给 LLM Embedding 是什么 Embedding 是将文本转换为数值向量的技术。相似的文本会有相似的向量。 例如： - \"猫是一种动物\" → [0.1, 0.5, 0.3, ...",
+    "chunk_index": 0,
+    "total_chunks": 2,
+    "filepath": "./test_posts\\rag_explained.md",
+    "metadata": {
+      "title": "RAG 技术详解",
+      "date": "2024-01-20",
+      "tags": [
+        "AI",
+        "RAG",
+        "Embedding",
+        "LLM"
+      ],
+      "categories": "人工智能"
+    }
+  },
+  {
+    "title": "RAG 技术详解",
+    "content": "\"猫是一种动物\" → [0.1, 0.5, 0.3, ...] - \"狗是一种动物\" → [0.2, 0.4, 0.3, ...] 这两个向量会很接近，因为语义相似。 RAG 的优势 准确性高：基于真实文档回答 可追溯：可以知道答案来源 成本低：不需要微调大模型 总结 RAG 是让 AI 学习私有数据的有效方法。",
+    "chunk_index": 1,
+    "total_chunks": 2,
+    "filepath": "./test_posts\\rag_explained.md",
+    "metadata": {
+      "title": "RAG 技术详解",
+      "date": "2024-01-20",
+      "tags": [
+        "AI",
+        "RAG",
+        "Embedding",
+        "LLM"
+      ],
+      "categories": "人工智能"
+    }
+  }
+]
