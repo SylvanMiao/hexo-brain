@@ -9,6 +9,7 @@ __pycache__/
 # Data / local files
 users.json
 test_posts/
+embeddings.json
 
 # Dev notes
 dev.md
