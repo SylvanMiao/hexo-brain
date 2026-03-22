@@ -1,0 +1,17 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+
+# Env
+.env
+
+# Data / local files
+users.json
+test_posts/
+
+# Dev notes
+dev.md
+aichat.md
+
+
